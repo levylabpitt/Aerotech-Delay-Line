@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2020-02-19 11:32:42" Creator="Patrick Irvin" Comments="" ID="8820cdfb4ee7aa084bf090f9b4be7b02">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2020-03-02 10:56:37" Creator="Patrick Irvin" Comments="" ID="f1e76347b98523ecc895e8950924078f">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Aerotech_Instrument</Package_File_Name>
-    <Library_Version>1.0.2.4</Library_Version>
+    <Library_Version>1.0.3.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
-    <Library_Output_Folder>..\builds</Library_Output_Folder>
+    <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
     <Library_License>BSD-3</Library_License>
@@ -41,16 +41,17 @@
       <Description>Program for setting delay with Aerotech delay line</Description>
       <Copyright/>
       <Packager/>
-      <URL/>
-      <Release_Notes>[1.0.2.3]
-- update to work with Instruments v1.5.8.70
-- add conversion to/from um/ps</Release_Notes>
+      <URL>https://github.com/levylabpitt/Aerotech-Delay-Line</URL>
+      <Release_Notes>[1.0.3.4]
+- Add error check to Get Delay.
+- Add convert ps to um (speed).vi
+- Update install location</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\LevyLab</Path>
+        <Path>&lt;user.lib&gt;\LevyLab\Aerotech</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -264,7 +265,7 @@
         <Path>..\lvsrc\Instrument.Aerotech\API\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45308F963EC81B6285A6C1231CCA18DA</GUID>
+      <GUID>81656DE2826B745FA2EA22735AA12C92</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
