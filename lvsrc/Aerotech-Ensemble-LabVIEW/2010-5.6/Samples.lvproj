@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="10008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -114,7 +114,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -143,6 +142,9 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 			<Item Name="Aerotech.Ensemble.dll" Type="Document" URL="../bin/Aerotech.Ensemble.dll"/>
 			<Item Name="Aerotech.Ensemble.LabVIEW.dll" Type="Document" URL="../bin/Aerotech.Ensemble.LabVIEW.dll"/>
@@ -215,6 +217,8 @@
 			<Item Name="Ensemble LabVIEW Operator Interface" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{839E1F48-E9D3-420C-900B-1FA9D8F29F34}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{481B0056-0BFC-4BAB-A310-189BD557D36D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F23E676B-68EE-4C2C-84FF-74B3B1EC7595}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Ensemble LabVIEW Operator Interface</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -222,7 +226,12 @@
 				<Property Name="Bld_localDestDir" Type="Path">../2010/bin</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E89C2379-497D-42B7-93D5-8435A977107C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path"></Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.major" Type="Int">5</Property>
+				<Property Name="Bld_version.minor" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Ensemble LabVIEW Operator Interface.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../2010/bin/Ensemble LabVIEW Operator Interface.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -246,10 +255,6 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Aerotech, Inc.</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">8</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
-				<Property Name="TgtF_fileVersion.minor" Type="Int">6</Property>
-				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Ensemble LabVIEW Operator Interface</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2006-2018 Aerotech, Inc. All Rights Reserved</Property>
 				<Property Name="TgtF_productName" Type="Str">Ensemble LabVIEW Operator Interface</Property>
