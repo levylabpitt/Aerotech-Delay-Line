@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2021-11-05 14:14:05" Creator="Patrick Irvin" Comments="" ID="9c174a580412ba8b50f697e837b500b7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2022-02-01 10:44:20" Creator="Patrick Irvin" Comments="" ID="0e3745ccf272d062751d9ddf03e5090e">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Aerotech_Instrument</Package_File_Name>
-    <Library_Version>1.1.1.8</Library_Version>
+    <Library_Version>1.1.2.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -104,12 +104,12 @@
     <VI_Package_Configuration_File>Aerotech Delay.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>Program for setting delay with Aerotech delay line</Description>
+      <Description>Aerotech delay line control using Instrument Framework</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Aerotech-Delay-Line</URL>
-      <Release_Notes>[1.1.1]
-- Update to Instrument Framework v1.11.0</Release_Notes>
+      <Release_Notes>[1.1.2]
+- Update to Instrument Framework v1.11.1.15</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -329,7 +329,7 @@
         <Path>..\lvsrc\Instrument.Aerotech\API\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EEAF7BBA7D64F3F4D1091F40F6C7B66</GUID>
+      <GUID>64A25740A22C8A8FB92C2A2010543E9D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
