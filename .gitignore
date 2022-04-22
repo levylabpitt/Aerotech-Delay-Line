@@ -1,2 +1,3 @@
-/builds/*.vip
-/builds/Package
+builds/
+*.aliases
+*.lvlps
