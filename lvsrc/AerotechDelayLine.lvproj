@@ -206,8 +206,8 @@
 				<Item Name="Samples.lvproj" Type="Document" URL="../Aerotech-Ensemble-LabVIEW/2010-5.6/Samples.lvproj"/>
 			</Item>
 		</Item>
-		<Item Name="Instrument.Aerotech UI.lvclass" Type="LVClass" URL="../Instrument.Aerotech UI/Instrument.Aerotech UI.lvclass"/>
 		<Item Name="Instrument.Aerotech.lvclass" Type="LVClass" URL="../Instrument.Aerotech/Instrument.Aerotech.lvclass"/>
+		<Item Name="Instrument.Aerotech UI.lvclass" Type="LVClass" URL="../Instrument.Aerotech UI/Instrument.Aerotech UI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
