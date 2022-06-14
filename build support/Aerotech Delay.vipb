@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2022-06-08 17:32:46" Creator="Patrick Irvin" Comments="" ID="2f3f0c0dfd31ce8b7ac9ffe60b58a6cb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2022-06-13 21:43:46" Creator="Patrick Irvin" Comments="" ID="b0208e822362f4ca17f5a368750a2e3e">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Aerotech_Instrument</Package_File_Name>
     <Library_Version>1.1.7.7</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.2</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -254,7 +254,7 @@
         <Path>..\lvsrc\Instrument.Aerotech\API\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F8601E241F873D0307ECF6C23A834DA</GUID>
+      <GUID>B6E9ED7222BF1562AED24F0A166CDCD4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
