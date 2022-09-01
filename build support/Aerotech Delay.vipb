@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2022-06-13 21:50:27" Creator="Patrick Irvin" Comments="" ID="e3bc2b896cbc291159131f2b06154688">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-02-05 16:50:45" Modified_Date="2022-08-31 22:04:30" Creator="Patrick Irvin" Comments="" ID="625995b9fb594f7f6d8b8a42479f3f61">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Aerotech_Instrument</Package_File_Name>
-    <Library_Version>1.1.7.8</Library_Version>
+    <Library_Version>1.1.8.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.3.2</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Aerotech-Delay-Line</URL>
-      <Release_Notes>- update to Instrument Framework v1.12.1</Release_Notes>
+      <Release_Notes>- update to Instrument Framework v1.12.3</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -254,7 +254,7 @@
         <Path>..\lvsrc\Instrument.Aerotech\API\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2EE274E4AD7FA6C41AAF89A80FB66103</GUID>
+      <GUID>C1842751A4153531C3F7853656C0644F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
