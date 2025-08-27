@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -208,7 +210,6 @@
 		</Item>
 		<Item Name="Instrument.Aerotech.lvclass" Type="LVClass" URL="../lvsrc/Instrument.Aerotech/Instrument.Aerotech.lvclass"/>
 		<Item Name="Instrument.Aerotech UI.lvclass" Type="LVClass" URL="../lvsrc/Instrument.Aerotech UI/Instrument.Aerotech UI.lvclass"/>
-		<Item Name="Instrument.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
@@ -393,6 +394,7 @@
 				<Item Name="Unwrap VVariant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Unwrap VVariant__ogtk.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
+				<Item Name="Instrument.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
